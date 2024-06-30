@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    padding-top: 56px; /* for fixed navbar */
+    background-color: #f8f9fa;
+    padding-bottom: 8%;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 8%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.dark-mode {
+    background-color: #343a40;
+    color: white;
+}
+
+.dark-mode .navbar, .dark-mode footer {
+    background-color: #212529;
+}
+
+.dark-mode .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.dark-mode .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.dark-mode .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.dark-mode .jumbotron {
+    background-color: #303233;
+}
+
+.modal {
+    text-align: center;
+}
+
+.modal-content {
+    background-color: #f8f9fa;
+}
+
+.modal-content.dark-mode {
+    background-color: #343a40;
+    color: white;
+}
+
+.requirements span {
+    color: red;
+}
+
+.requirements span.valid {
+    color: green;
+}
+
+.dark-mode #tabela_cennik {
+    color: white;
+}
+
+.dark-mode #posty_blog {
+    background-color: #2d2d31
+}
+
+.dark-mode #changePasswordModal{
+    color:black;
+}
+
+.dark-mode .modal{
+    color: black;
+}
+
